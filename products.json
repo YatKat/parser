@@ -1,0 +1,595 @@
+[ {
+  "productName" : "Unifarbenes T-Shirt",
+  "productBrandName" : "TOMMY HILFIGER",
+  "productPrice" : "29,90€",
+  "articleNumber" : "Artikel-Nr: THS0906007000001",
+  "color" : "weiß schwarz blau"
+}, {
+  "productName" : "Jeans in Used-Optik 'Hatch'",
+  "productBrandName" : "Pepe Jeans",
+  "productPrice" : "94,90€",
+  "articleNumber" : "Artikel-Nr: PEP0121007010001",
+  "color" : "blau black denim blue denim blue denim blue denim white denim blue denim"
+}, {
+  "productName" : "T-Shirt '3-Stripes'",
+  "productBrandName" : "ADIDAS ORIGINALS",
+  "productPrice" : "29,90€",
+  "articleNumber" : "Artikel-Nr: ADT0423001000001",
+  "color" : "schwarz / weiß weinrot mint / weiß schwarz / weiß"
+}, {
+  "productName" : "T-Shirt",
+  "productBrandName" : "LEVI'S",
+  "productPrice" : "24,90€",
+  "articleNumber" : "Artikel-Nr: LEV0013003005001",
+  "color" : "schwarz grau dunkelblau weiß"
+}, {
+  "productName" : "Hose",
+  "productBrandName" : "Urban Classics",
+  "productPrice" : "ab 47,87€",
+  "articleNumber" : "Artikel-Nr: TB1268-00094/XL",
+  "color" : "dunkelgrau schwarz oliv sand"
+}, {
+  "productName" : "Sandale 'Adilette Aqua'",
+  "productBrandName" : "ADIDAS ORIGINALS",
+  "productPrice" : "ab 19,90€",
+  "articleNumber" : "Artikel-Nr: Ado1348003000001",
+  "color" : "schwarz / weiß dunkelblau / weiß pink / weiß blau / weiß"
+}, {
+  "productName" : "Boxershorts 'CHUEY'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "34,99€",
+  "articleNumber" : "Artikel-Nr: 5713741184810",
+  "color" : "schwarz"
+}, {
+  "productName" : "Trunks",
+  "productBrandName" : "ABOUT YOU",
+  "productPrice" : "19,90€",
+  "articleNumber" : "Artikel-Nr: AYO0445001000001",
+  "color" : "grau / schwarz / weiß"
+}, {
+  "productName" : "T-Shirt '3-Stripes'",
+  "productBrandName" : "ADIDAS ORIGINALS",
+  "productPrice" : "29,90€",
+  "articleNumber" : "Artikel-Nr: ADT0423002000006",
+  "color" : "schwarz / weiß mint / weiß schwarz / weiß"
+}, {
+  "productName" : "T-Shirt 'Prado'",
+  "productBrandName" : "ELLESSE",
+  "productPrice" : "ab 24,90€",
+  "articleNumber" : "Artikel-Nr: ELS0032004000002",
+  "color" : "nachtblau / weiß weiß gelb / schwarz navy / rosa hellblau schwarz dunkelblau / graumeliert dunkelblau / weiß"
+}, {
+  "productName" : "Pants im 3er-Pack",
+  "productBrandName" : "Calvin Klein underwear",
+  "productPrice" : "39,90€",
+  "articleNumber" : "Artikel-Nr: CKU0114006003001",
+  "color" : "schwarz / weiß blau / petrol / melone mischfarben / schwarz blau / schwarz schwarz graumeliert / schwarz / weiß schwarz / weiß"
+}, {
+  "productName" : "Anzug mit Krawatte und Einstecktuch",
+  "productBrandName" : "BRUNO BANANI",
+  "productPrice" : "ab 134,99€ 199,99€",
+  "articleNumber" : "Artikel-Nr: 681071345",
+  "color" : "schwarz marine"
+}, {
+  "productName" : "Slipper 'Adilette Aqua'",
+  "productBrandName" : "ADIDAS ORIGINALS",
+  "productPrice" : "ab 19,90€",
+  "articleNumber" : "Artikel-Nr: Ado1346002000001",
+  "color" : "pink / weiß dunkelblau / weiß schwarz / weiß blau / weiß"
+}, {
+  "productName" : "Shirt 'T-shirt with striped print T-Shirt 1/2'",
+  "productBrandName" : "TOM TAILOR DENIM",
+  "productPrice" : "17,99€",
+  "articleNumber" : "Artikel-Nr: 1008235001",
+  "color" : "grau"
+}, {
+  "productName" : "T-Shirt 'Prado'",
+  "productBrandName" : "ELLESSE",
+  "productPrice" : "ab 21,90€ 24,95€",
+  "articleNumber" : "Artikel-Nr: 293854001",
+  "color" : "schwarz weiß gelb / schwarz navy / rosa hellblau nachtblau / weiß dunkelblau / graumeliert dunkelblau / weiß"
+}, {
+  "productName" : "Shirt",
+  "productBrandName" : "Champion Authentic Athletic Apparel",
+  "productPrice" : "19,90€",
+  "articleNumber" : "Artikel-Nr: CHP0214006000001",
+  "color" : "weiß blau dunkelblau rot"
+}, {
+  "productName" : "T-Shirt",
+  "productBrandName" : "naketano",
+  "productPrice" : "22,90€",
+  "articleNumber" : "Artikel-Nr: NAK1255024000001",
+  "color" : "dunkelgrau beigemeliert himmelblau graumeliert hellgrau schwarz braun / anthrazit hellblau / braun grün taubenblau"
+}, {
+  "productName" : "T-Shirt '3-Stripes'",
+  "productBrandName" : "ADIDAS ORIGINALS",
+  "productPrice" : "ab 29,90€",
+  "articleNumber" : "Artikel-Nr: ADT0423014000004",
+  "color" : "rot / weiß"
+}, {
+  "productName" : "Retro-Boxershorts im 3er Pack",
+  "productBrandName" : "Calvin Klein underwear",
+  "productPrice" : "39,90€",
+  "articleNumber" : "Artikel-Nr: CKU0004029000001",
+  "color" : "schwarz blau / koralle / schwarz / weiß schwarz schwarz schwarz blau / schwarz blau / grün / schwarz hellblau / grau / oliv / schwarz weiß graumeliert / schwarz / weiß schwarz / weiß"
+}, {
+  "productName" : "T-Shirt 'Halle'",
+  "productBrandName" : "!Solid",
+  "productPrice" : "19,90€",
+  "articleNumber" : "Artikel-Nr: SLD0113001000006",
+  "color" : "creme / dunkelgrau gelb rot beige creme / oliv creme / braun"
+}, {
+  "productName" : "Hose 'NOOS - JJIMARCO JJBOWIE SA NAVY BLAZER NOOS'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "ab 39,90€",
+  "articleNumber" : "Artikel-Nr: JAC1674001000002",
+  "color" : "navy"
+}, {
+  "productName" : "T-Shirt 'GUBBIO'",
+  "productBrandName" : "ELLESSE",
+  "productPrice" : "29,90€",
+  "articleNumber" : "Artikel-Nr: ELS0069002000006",
+  "color" : "dunkelblau / apricot / weiß navy / rot / weiß hellblau / orange / schwarz / weiß navy / gelb / orange / schwarz / weiß dunkelblau / dunkelgrau / weiß"
+}, {
+  "productName" : "T-Shirt",
+  "productBrandName" : "DIESEL",
+  "productPrice" : "39,90€",
+  "articleNumber" : "Artikel-Nr: DIL0826001000002",
+  "color" : "graumeliert / schwarz / weiß blau / grün / schwarz"
+}, {
+  "productName" : "Hose",
+  "productBrandName" : "Only & Sons",
+  "productPrice" : "39,90€",
+  "articleNumber" : "Artikel-Nr: ONS1012001000001",
+  "color" : "schwarz graumeliert navy"
+}, {
+  "productName" : "T-Shirt",
+  "productBrandName" : "TOM TAILOR DENIM",
+  "productPrice" : "15,90€",
+  "articleNumber" : "Artikel-Nr: TTD2649001000001",
+  "color" : "weiß blau / oliv / weiß"
+}, {
+  "productName" : "T-Shirt 'Randal'",
+  "productBrandName" : "DIESEL",
+  "productPrice" : "ab 44,90€",
+  "articleNumber" : "Artikel-Nr: DIL0825002000001",
+  "color" : "marine / schwarz / weiß weiß schwarz / weiß"
+}, {
+  "productName" : "Jeans 'JJGlenn Original JJ 887'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "69,90€",
+  "articleNumber" : "Artikel-Nr: JAC0230001013001",
+  "color" : "blau"
+}, {
+  "productName" : "Print-Shirt",
+  "productBrandName" : "ALPHA INDUSTRIES",
+  "productPrice" : "19,95€",
+  "articleNumber" : "Artikel-Nr: 242938001",
+  "color" : "schwarz orange / schwarz offwhite oliv oliv dunkelgrün weinrot graumeliert / weiß karamell / weiß graphit / weiß dunkelblau / grau dunkelgrün burgunder oliv navy / weiß graumeliert weiß"
+}, {
+  "productName" : "Jeans 'WEFT MED BLUE 5076 PK'",
+  "productBrandName" : "Only & Sons",
+  "productPrice" : "39,90€",
+  "articleNumber" : "Artikel-Nr: ONS0254001001000",
+  "color" : "blau"
+}, {
+  "productName" : "Shirt mit V-Neck",
+  "productBrandName" : "Tommy Hilfiger Underwear",
+  "productPrice" : "ab 39,90€",
+  "articleNumber" : "Artikel-Nr: THU0040001001000",
+  "color" : "weiß schwarz"
+}, {
+  "productName" : "Röhrenjeans 'Liam'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "ab 49,90€",
+  "articleNumber" : "Artikel-Nr: JAC0333001014000",
+  "color" : "schwarz"
+}, {
+  "productName" : "T-Shirt 'onsMATT LONGY TEE'",
+  "productBrandName" : "Only & Sons",
+  "productPrice" : "14,90€",
+  "articleNumber" : "Artikel-Nr: ONS0284003000005",
+  "color" : "weiß jade rauchblau taupe taubenblau hellgrau schwarz anthrazit"
+}, {
+  "productName" : "Jeans 'JOSH'",
+  "productBrandName" : "TOM TAILOR",
+  "productPrice" : "49,90€",
+  "articleNumber" : "Artikel-Nr: TOT2536001000027",
+  "color" : "blue denim"
+}, {
+  "productName" : "Shirt",
+  "productBrandName" : "Champion Authentic Athletic Apparel",
+  "productPrice" : "19,90€",
+  "articleNumber" : "Artikel-Nr: CHP0214002000001",
+  "color" : "dunkelblau blau weiß rot"
+}, {
+  "productName" : "T-Shirt 'Leonard'",
+  "productBrandName" : "ABOUT YOU",
+  "productPrice" : "14,90€",
+  "articleNumber" : "Artikel-Nr: AYO0862004000001",
+  "color" : "senf / graphit graphit / khaki dunkelgrün / weiß"
+}, {
+  "productName" : "Jeans 'LOOM BLUE JOG PK 8472 NOOS'",
+  "productBrandName" : "Only & Sons",
+  "productPrice" : "ab 39,90€",
+  "articleNumber" : "Artikel-Nr: ONS0376001000003",
+  "color" : "blue denim"
+}, {
+  "productName" : "Anzug 'JPRSTEVEN SUIT'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "129,00€",
+  "articleNumber" : "Artikel-Nr: JAC1367002000001",
+  "color" : "navy schwarz graumeliert"
+}, {
+  "productName" : "Jeans Shorts 'onsPLY SHORTS LIGHT BLUE PK 8614'",
+  "productBrandName" : "Only & Sons",
+  "productPrice" : "24,90€",
+  "articleNumber" : "Artikel-Nr: ONS0426001000001",
+  "color" : "blue denim"
+}, {
+  "productName" : "Jeans 'JJITOM JJORIGINAL AM 815 NOOS'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "ab 39,90€",
+  "articleNumber" : "Artikel-Nr: JAC1485001000002",
+  "color" : "blue denim"
+}, {
+  "productName" : "Jeans 'Glenn Original AM 814 Noos'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "ab 39,90€",
+  "articleNumber" : "Artikel-Nr: JAC1944001000011",
+  "color" : "blue denim"
+}, {
+  "productName" : "Jeans 'Clark Original'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "69,90€",
+  "articleNumber" : "Artikel-Nr: JAC0625001000001",
+  "color" : "blue denim dunkelblau"
+}, {
+  "productName" : "Shorts",
+  "productBrandName" : "Only & Sons",
+  "productPrice" : "34,90€",
+  "articleNumber" : "Artikel-Nr: ONS0912001000001",
+  "color" : "blue denim"
+}, {
+  "productName" : "T-Shirt 'CHARING'",
+  "productBrandName" : "Pepe Jeans",
+  "productPrice" : "27,90€",
+  "articleNumber" : "Artikel-Nr: PEP1518007000001",
+  "color" : "blau hellbeige / dunkelgrün"
+}, {
+  "productName" : "Jeans 'Glenn Original AM 815'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "ab 39,90€",
+  "articleNumber" : "Artikel-Nr: JAC1942001000017",
+  "color" : "blue denim"
+}, {
+  "productName" : "Print-Shirt",
+  "productBrandName" : "ALPHA INDUSTRIES",
+  "productPrice" : "ab 19,90€",
+  "articleNumber" : "Artikel-Nr: API0047002002000",
+  "color" : "weiß orange / schwarz offwhite oliv oliv dunkelgrün weinrot graumeliert / weiß karamell / weiß graphit / weiß dunkelblau / grau schwarz dunkelgrün burgunder oliv navy / weiß graumeliert"
+}, {
+  "productName" : "Jeans 'TIM ORIGINAL CR 010'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "39,99€",
+  "articleNumber" : "Artikel-Nr: 5713616345834",
+  "color" : "grey denim blue denim"
+}, {
+  "productName" : "Hemd 'JJESHERIDAN SHIRT L/S'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "ab 39,90€",
+  "articleNumber" : "Artikel-Nr: JAC0902004000001",
+  "color" : "black denim blue denim grau / grey denim blue denim"
+}, {
+  "productName" : "Jeansshorts 'SCANTON'",
+  "productBrandName" : "Tommy Jeans",
+  "productPrice" : "69,90€",
+  "articleNumber" : "Artikel-Nr: HID2033001000001",
+  "color" : "blue denim"
+}, {
+  "productName" : "Röhrenjeans 'Liam'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "ab 49,90€",
+  "articleNumber" : "Artikel-Nr: JAC0333002015000",
+  "color" : "grey denim"
+}, {
+  "productName" : "Boxershorts 'LICHFIELD'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "24,90€",
+  "articleNumber" : "Artikel-Nr: JAC0745001000001",
+  "color" : "navy / grey denim / burgunder"
+}, {
+  "productName" : "Hose 'onsMARK PANT GW 0209 NOOS'",
+  "productBrandName" : "Only & Sons",
+  "productPrice" : "ab 39,90€",
+  "articleNumber" : "Artikel-Nr: ONS1012003000003",
+  "color" : "graumeliert schwarz navy"
+}, {
+  "productName" : "T-Shirt 'Maxim'",
+  "productBrandName" : "ABOUT YOU",
+  "productPrice" : "14,90€",
+  "articleNumber" : "Artikel-Nr: AYO0860003000001",
+  "color" : "graphit khaki weiß senf weiß"
+}, {
+  "productName" : "Jeans '3301 Straight'",
+  "productBrandName" : "G-STAR RAW",
+  "productPrice" : "99,90€",
+  "articleNumber" : "Artikel-Nr: GST0158010011014",
+  "color" : "dunkelblau blue denim blue denim blue denim dunkelblau blue denim blue denim dunkelblau dunkelblau"
+}, {
+  "productName" : "Cargohose 'JJIPAUL JJFLAKE AKM 542 BLACK NOOS'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "ab 59,90€",
+  "articleNumber" : "Artikel-Nr: JAC1061001000002",
+  "color" : "schwarz"
+}, {
+  "productName" : "Chino 'SHHYARD'",
+  "productBrandName" : "SELECTED HOMME",
+  "productPrice" : "ab 59,90€",
+  "articleNumber" : "Artikel-Nr: SEM0380003011004",
+  "color" : "enzian beige rauchgrau / schwarz graphit"
+}, {
+  "productName" : "Hemd 'JJEGINGHAM SHIRT L/S'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "29,90€",
+  "articleNumber" : "Artikel-Nr: JAC0901002000001",
+  "color" : "dunkelblau / weinrot rot nachtblau / weiß"
+}, {
+  "productName" : "Retro-Boxershorts im 3er Pack",
+  "productBrandName" : "Calvin Klein underwear",
+  "productPrice" : "ab 39,90€",
+  "articleNumber" : "Artikel-Nr: CKU0004003001000",
+  "color" : "graumeliert / schwarz / weiß blau / koralle / schwarz / weiß schwarz schwarz schwarz blau / schwarz blau / grün / schwarz hellblau / grau / oliv / schwarz schwarz weiß schwarz / weiß"
+}, {
+  "productName" : "Shirt 'Stripe'",
+  "productBrandName" : "TOMMY HILFIGER",
+  "productPrice" : "39,90€",
+  "articleNumber" : "Artikel-Nr: THS2453001000001",
+  "color" : "dunkelblau / rot / weiß schwarz grau dunkelblau"
+}, {
+  "productName" : "Hemd 'ALFREDO'",
+  "productBrandName" : "Only & Sons",
+  "productPrice" : "29,90€",
+  "articleNumber" : "Artikel-Nr: ONS0522004000002",
+  "color" : "schwarz weiß navy"
+}, {
+  "productName" : "Jogginghose",
+  "productBrandName" : "Nike Sportswear",
+  "productPrice" : "39,90€",
+  "articleNumber" : "Artikel-Nr: NIS0158001000001",
+  "color" : "schwarz"
+}, {
+  "productName" : "Sweatshirt",
+  "productBrandName" : "Only & Sons",
+  "productPrice" : "29,90€",
+  "articleNumber" : "Artikel-Nr: ONS0897002000001",
+  "color" : "hellgrau schwarz"
+}, {
+  "productName" : "Jeans 'JJIGLENN JJORIGINAL JOS 875 NOOS'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "69,90€",
+  "articleNumber" : "Artikel-Nr: JAC0574001000002",
+  "color" : "blue denim"
+}, {
+  "productName" : "T-Shirt",
+  "productBrandName" : "LEVI'S",
+  "productPrice" : "24,90€",
+  "articleNumber" : "Artikel-Nr: LEV0013002006000",
+  "color" : "weiß grau dunkelblau schwarz"
+}, {
+  "productName" : "Hemd 'CAIDEN'",
+  "productBrandName" : "Only & Sons",
+  "productPrice" : "29,90€",
+  "articleNumber" : "Artikel-Nr: ONS0894001000001",
+  "color" : "blau rosa"
+}, {
+  "productName" : "T-Shirt 'onsMATT LONGY TEE'",
+  "productBrandName" : "Only & Sons",
+  "productPrice" : "14,90€",
+  "articleNumber" : "Artikel-Nr: ONS0284001000005",
+  "color" : "schwarz jade rauchblau taupe taubenblau hellgrau weiß anthrazit"
+}, {
+  "productName" : "T-Shirt '3-Stripes'",
+  "productBrandName" : "ADIDAS ORIGINALS",
+  "productPrice" : "ab 29,90€",
+  "articleNumber" : "Artikel-Nr: ADT0423016000003",
+  "color" : "blau / weiß"
+}, {
+  "productName" : "Röhrenjeans 'Liam'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "49,90€",
+  "articleNumber" : "Artikel-Nr: JAC0333003001000",
+  "color" : "blue denim"
+}, {
+  "productName" : "T-Shirt 'TJM ORIGINAL JERSEY V NECK TEE'",
+  "productBrandName" : "Tommy Jeans",
+  "productPrice" : "24,90€",
+  "articleNumber" : "Artikel-Nr: HID1607003000002",
+  "color" : "weiß dunkelblau schwarz grau"
+}, {
+  "productName" : "T-Shirt 'ALGILA'",
+  "productBrandName" : "ELLESSE",
+  "productPrice" : "27,90€",
+  "articleNumber" : "Artikel-Nr: ELS0191002000002",
+  "color" : "navy / weiß rot / weiß schwarz weiß"
+}, {
+  "productName" : "T-Shirt 'Pray'",
+  "productBrandName" : "Mister Tee",
+  "productPrice" : "ab 19,90€",
+  "articleNumber" : "Artikel-Nr: MRC0022001000001",
+  "color" : "grau / schwarz rubinrot basaltgrau grau / weiß"
+}, {
+  "productName" : "T-shirt 'HOUSEMARK GRAPHIC TEE'",
+  "productBrandName" : "LEVI'S",
+  "productPrice" : "29,90€",
+  "articleNumber" : "Artikel-Nr: LEV0014026000001",
+  "color" : "dunkelgrün / schwarz / weiß royalblau / schwarz mischfarben / schwarz oliv / schwarz mischfarben / weiß mischfarben / weiß blau / weiß hellblau / neongrün / weiß"
+}, {
+  "productName" : "Unifarbenes T-Shirt",
+  "productBrandName" : "TOMMY HILFIGER",
+  "productPrice" : "29,90€",
+  "articleNumber" : "Artikel-Nr: THS0906008000001",
+  "color" : "blau schwarz weiß"
+}, {
+  "productName" : "T-Shirt",
+  "productBrandName" : "LEVI'S",
+  "productPrice" : "24,90€",
+  "articleNumber" : "Artikel-Nr: LEV0013004000006",
+  "color" : "dunkelblau grau schwarz weiß"
+}, {
+  "productName" : "Shirt 'SPORTSWEARLOGOGRAPH IC84SPORTSWEARL'",
+  "productBrandName" : "LEVI'S",
+  "productPrice" : "24,90€",
+  "articleNumber" : "Artikel-Nr: LEV0086001000006",
+  "color" : "blau / rot / weiß dunkelblau / rot / weiß schwarz / weiß blau / graumeliert / rot navy / rot / schwarz / weiß"
+}, {
+  "productName" : "T-Shirt 'Simple Dom'",
+  "productBrandName" : "THE NORTH FACE",
+  "productPrice" : "24,90€",
+  "articleNumber" : "Artikel-Nr: TNF0015002000001",
+  "color" : "schwarz / weiß schwarz / weiß dunkelgrau / schwarz"
+}, {
+  "productName" : "Hemd 'POP MOOSE OXFORD'",
+  "productBrandName" : "Abercrombie & Fitch",
+  "productPrice" : "74,90€",
+  "articleNumber" : "Artikel-Nr: AAF0526002000002",
+  "color" : "oliv hellgrau"
+}, {
+  "productName" : "T-Shirt",
+  "productBrandName" : "naketano",
+  "productPrice" : "22,90€",
+  "articleNumber" : "Artikel-Nr: NAK1255025000001",
+  "color" : "beigemeliert dunkelgrau himmelblau graumeliert hellgrau schwarz braun / anthrazit hellblau / braun grün taubenblau"
+}, {
+  "productName" : "Jacke",
+  "productBrandName" : "Only & Sons",
+  "productPrice" : "39,90€ 49,90€",
+  "articleNumber" : "Artikel-Nr: ONS1107002000001",
+  "color" : "rot dunkelgrün / schwarz"
+}, {
+  "productName" : "T-Shirt 'ALGILA'",
+  "productBrandName" : "ELLESSE",
+  "productPrice" : "27,90€",
+  "articleNumber" : "Artikel-Nr: ELS0191003000001",
+  "color" : "weiß rot / weiß navy / weiß schwarz"
+}, {
+  "productName" : "Jeans",
+  "productBrandName" : "CHEAP MONDAY",
+  "productPrice" : "49,90€",
+  "articleNumber" : "Artikel-Nr: CPM0018027019003",
+  "color" : "schwarz blue denim schwarz blue denim blue denim blue denim black denim blue denim blue denim dunkelgrau blue denim grey denim dunkelblau blau grau blau blau"
+}, {
+  "productName" : "T-Shirt 'JJECORP LOGO TEE SS CREW NECK'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "12,90€",
+  "articleNumber" : "Artikel-Nr: JAC0895001000001",
+  "color" : "schwarz rot / schwarz / weiß blau / rot / weiß"
+}, {
+  "productName" : "Anzug 'JPRSteven'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "129,00€",
+  "articleNumber" : "Artikel-Nr: JAC1367003000001",
+  "color" : "schwarz navy graumeliert"
+}, {
+  "productName" : "Hemd 'SHDONENEW-MARK'",
+  "productBrandName" : "SELECTED HOMME",
+  "productPrice" : "39,90€",
+  "articleNumber" : "Artikel-Nr: SEM0514001000001",
+  "color" : "weiß dunkelblau hellblau hellblau / weiß hellblau blau / weiß navy rotviolett / weiß blau / weiß hellblau"
+}, {
+  "productName" : "T-Shirt",
+  "productBrandName" : "naketano",
+  "productPrice" : "22,90€",
+  "articleNumber" : "Artikel-Nr: NAK1255014000001",
+  "color" : "graumeliert dunkelgrau beigemeliert himmelblau hellgrau schwarz braun / anthrazit hellblau / braun grün taubenblau"
+}, {
+  "productName" : "Boxershorts 'SENSE' 3er-Pack",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "24,90€",
+  "articleNumber" : "Artikel-Nr: JAC0744001000001",
+  "color" : "schwarz grau"
+}, {
+  "productName" : "Poloshirt 'Joshua'",
+  "productBrandName" : "ABOUT YOU",
+  "productPrice" : "15,90€ 19,90€",
+  "articleNumber" : "Artikel-Nr: AYO0883001000002",
+  "color" : "hellblau blau / grün"
+}, {
+  "productName" : "T-Shirt",
+  "productBrandName" : "BLEND",
+  "productPrice" : "17,90€",
+  "articleNumber" : "Artikel-Nr: LND0047001000001",
+  "color" : "taubenblau / mint / weiß hellblau / schwarz / weiß"
+}, {
+  "productName" : "T-Shirt",
+  "productBrandName" : "naketano",
+  "productPrice" : "22,90€",
+  "articleNumber" : "Artikel-Nr: NAK1254027000001",
+  "color" : "dunkelgrau pastellgrün braun grün hellblau dunkelgrau dunkelblau braun / weinrot braun / pastellgrün"
+}, {
+  "productName" : "Shirt 'TJM ESSENTIAL SPLIT BOX TEE'",
+  "productBrandName" : "TOMMY HILFIGER",
+  "productPrice" : "27,90€ 34,90€",
+  "articleNumber" : "Artikel-Nr: HID1916002000003",
+  "color" : "rot / schwarz / weiß dunkelblau / neongrün / rot royalblau / rot / weiß rot / schwarz / weiß"
+}, {
+  "productName" : "Hemd 'Hagen'",
+  "productBrandName" : "ABOUT YOU",
+  "productPrice" : "24,90€",
+  "articleNumber" : "Artikel-Nr: AYO0642001000002",
+  "color" : "weiß"
+}, {
+  "productName" : "Jeans 'JJIGLENN JJFELIX AM 046 LID NOOS'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "ab 59,90€",
+  "articleNumber" : "Artikel-Nr: JAC0576001000021",
+  "color" : "schwarz"
+}, {
+  "productName" : "Mantel 'Victor' mit Kaschmir",
+  "productBrandName" : "MAGIC FOX x ABOUT YOU",
+  "productPrice" : "159,00€",
+  "articleNumber" : "Artikel-Nr: MFX0003001000001",
+  "color" : "beige blau"
+}, {
+  "productName" : "T-Shirt 'TJM ORIGINAL JERSEY V NECK TEE'",
+  "productBrandName" : "Tommy Jeans",
+  "productPrice" : "24,90€",
+  "articleNumber" : "Artikel-Nr: HID1607002000001",
+  "color" : "schwarz dunkelblau weiß grau"
+}, {
+  "productName" : "T-Shirt 'Maxim'",
+  "productBrandName" : "ABOUT YOU",
+  "productPrice" : "14,90€",
+  "articleNumber" : "Artikel-Nr: AYO0860005000001",
+  "color" : "weiß khaki graphit senf weiß"
+}, {
+  "productName" : "T-Shirt 'onsMATT LONGY TEE'",
+  "productBrandName" : "Only & Sons",
+  "productPrice" : "14,90€",
+  "articleNumber" : "Artikel-Nr: ONS0284007000001",
+  "color" : "anthrazit jade rauchblau taupe taubenblau hellgrau schwarz weiß"
+}, {
+  "productName" : "T-Shirt",
+  "productBrandName" : "TOMMY HILFIGER",
+  "productPrice" : "29,90€",
+  "articleNumber" : "Artikel-Nr: THS0906006000001",
+  "color" : "schwarz blau weiß"
+}, {
+  "productName" : "Poloshirt 'HOUSEMARK'",
+  "productBrandName" : "LEVI'S",
+  "productPrice" : "39,90€",
+  "articleNumber" : "Artikel-Nr: LEV0121001000001",
+  "color" : "dunkelblau schwarz pinkmeliert neonblau / feuerrot / weiß graumeliert weiß"
+}, {
+  "productName" : "Skinny Jeans 'Morten'",
+  "productBrandName" : "tigha",
+  "productPrice" : "129,00€",
+  "articleNumber" : "Artikel-Nr: TIG0166002000001",
+  "color" : "schwarz blue denim rauchblau blue denim"
+}, {
+  "productName" : "Hose 'MARCO BOWIE'",
+  "productBrandName" : "JACK & JONES",
+  "productPrice" : "39,90€",
+  "articleNumber" : "Artikel-Nr: JAC1675001000002",
+  "color" : "oliv"
+} ]
