@@ -15,6 +15,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -41,6 +44,9 @@ public class WebShopParser {
 
     private AtomicInteger requestAmount = new AtomicInteger(0);
     private long timeForAllRequests;
+    ExecutorService executor = Executors.newFixedThreadPool(4);
+    final String URL = "https://www.aboutyou.de/maenner/bekleidung";
+    private List<Product> list = new CopyOnWriteArrayList<Product>();
 
     /**
      * Method execute connection to URL and return Document (DOM) object.
@@ -48,7 +54,7 @@ public class WebShopParser {
      * @param url path to web shop to parce.
      * @return Document (HTML form) object.
      */
-    public Document getDocFromURL(String url) {
+    private Document getDocFromURL(String url) {
         long startTime = System.currentTimeMillis();
         Document doc = null;
         try {
@@ -74,7 +80,7 @@ public class WebShopParser {
      * @param doc Document object (HTML form).
      * @return parameterized List of Product (with initialized fields).
      */
-    public List<Product> parseHtmlDoc(Document doc) {
+    private List<Product> parseHtmlDoc(Document doc) {
         final List<Product> productList = new CopyOnWriteArrayList<Product>();
         Elements productTileDefault = doc.getElementsByAttributeValue(KEY_ATTRIBUTE_DATA_TEST_ID,
                                                                       ATTRIBUTE_VALUE_TILE_DEFAULT);
@@ -101,6 +107,24 @@ public class WebShopParser {
             productList.add(product);
         }
         return productList;
+    }
+
+    public List<Product> executeParserInMultiThreadsEnv(){
+        executor.submit(new Runnable() {
+            public void run() {
+                Document doc = getDocFromURL(URL);
+                list = parseHtmlDoc(doc);
+            }
+        });
+        try {
+            if (!executor.awaitTermination(30, TimeUnit.SECONDS)) {
+                executor.shutdown();
+            }
+        } catch (InterruptedException e) {
+            executor.shutdownNow();
+            log.error("Thread interrupted", e);
+        }
+        return list;
     }
 
     /**
