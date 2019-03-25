@@ -9,9 +9,10 @@
 * [Authors](#authors)
 
 # <a name="purpose"></a>Project purpose
-Web shop parser is the App for grabbing information about products from web shops.
+Web shop parser is the app for grabbing information about products from web shop.
 <hr>
-This ass can be used to site https://www.aboutyou.de/maenner/bekleidung and have information about:
+This parser is the app for site https://www.aboutyou.de/maenner/bekleidung. 
+It helps to gather information about:
 
 * product name
 * brand
@@ -26,8 +27,8 @@ This app can be used in multithreading environment.
 The difference in execution with one thread:
 ![stdout_parser](images/stdout_parser.jpg)
 
-And with two threads:
-![stdout_parser](images/stdout_parser_MT.jpg)
+And with 4 threads:
+![stdout_parser](images/parserMT.jpg)
 
 # <a name="structure"></a>Project Structure
 * Java 8

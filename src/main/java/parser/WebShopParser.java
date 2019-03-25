@@ -15,8 +15,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -60,8 +58,7 @@ public class WebShopParser {
                     .referrer(GOOGLE_COM) //provide simulation of manual google search
                     .get();
         } catch (IOException e) {
-            e.printStackTrace();
-            log.debug("Can not achieve source web shop", e);
+            log.error("Can not achieve source web shop", e);
         }
         long currentTime = System.currentTimeMillis();
         timeForAllRequests += (currentTime - startTime);
@@ -77,37 +74,31 @@ public class WebShopParser {
      * @param doc Document object (HTML form).
      * @return parameterized List of Product (with initialized fields).
      */
-    public List<Product> parseHtmlDoc(Document doc, ExecutorService service) {
+    public List<Product> parseHtmlDoc(Document doc) {
         final List<Product> productList = new CopyOnWriteArrayList<Product>();
-        Elements productTileDefault = doc.getElementsByAttributeValue(KEY_ATTRIBUTE_DATA_TEST_ID, ATTRIBUTE_VALUE_TILE_DEFAULT);
+        Elements productTileDefault = doc.getElementsByAttributeValue(KEY_ATTRIBUTE_DATA_TEST_ID,
+                                                                      ATTRIBUTE_VALUE_TILE_DEFAULT);
         for (final Element element : productTileDefault) {
-            service.execute(new Runnable() {
-                public void run() {
-                    Product product = new Product();
-                    Elements productBrandName = element.getElementsByAttributeValue(KEY_ATTRIBUTE_DATA_TEST_ID, ATTRIBUTE_VALUE_BRAND_NAME);
-                    product.setProductBrandName(productBrandName.text());
-                    Elements productName = element.getElementsByAttributeValue(KEY_ATTRIBUTE_DATA_TEST_ID, ATTRIBUTE_VALUE_PRODUCT_NAME);
-                    product.setProductName(productName.text());
-                    Elements productPrice = element.getElementsByAttributeValue(KEY_ATTRIBUTE_DATA_TEST_ID, ATTRIBUTE_VALUE_PRODUCT_PRICES);
-                    product.setProductPrice(productPrice.text());
-                    //go to the deeper layer (link to each product to take article number and color)
-                    String link = element.select(TAG_A).first().attr(KEY_ATTRIBUTE_HREF);
-                    Document secondLayerDoc = getDocFromURL(BASE_URL.trim() + link.trim());
-                    Elements articleNumbers = secondLayerDoc.getElementsByAttributeValue(KEY_ATTRIBUTE_CLASS, ATTRIBUTE_VALUE_ARTICLE_NUMBER);
-                    product.setArticleNumber(articleNumbers.text());
-                    Elements color = secondLayerDoc.getElementsByAttributeValue(KEY_ATTRIBUTE_DATA_TEST_ID, ATTRIBUTE_VALUE_VARIANT_COLOR);
-                    product.setColor(color.text());
-                    productList.add(product);
-                }
-            });
-        }
-        try {
-            if(!service.awaitTermination(30, TimeUnit.SECONDS)){
-                service.shutdown();
-            }
-        } catch (InterruptedException e) {
-            service.shutdownNow();
-            e.printStackTrace();
+            Product product = new Product();
+            Elements productBrandName = element.getElementsByAttributeValue(KEY_ATTRIBUTE_DATA_TEST_ID,
+                                                                            ATTRIBUTE_VALUE_BRAND_NAME);
+            product.setProductBrandName(productBrandName.text());
+            Elements productName = element.getElementsByAttributeValue(KEY_ATTRIBUTE_DATA_TEST_ID,
+                                                                        ATTRIBUTE_VALUE_PRODUCT_NAME);
+            product.setProductName(productName.text());
+            Elements productPrice = element.getElementsByAttributeValue(KEY_ATTRIBUTE_DATA_TEST_ID,
+                                                                        ATTRIBUTE_VALUE_PRODUCT_PRICES);
+            product.setProductPrice(productPrice.text());
+            //go to the deeper layer (link to each product to take article number and color)
+            String link = element.select(TAG_A).first().attr(KEY_ATTRIBUTE_HREF);
+            Document secondLayerDoc = getDocFromURL(BASE_URL.trim() + link.trim());
+            Elements articleNumbers = secondLayerDoc.getElementsByAttributeValue(KEY_ATTRIBUTE_CLASS,
+                                                                                ATTRIBUTE_VALUE_ARTICLE_NUMBER);
+            product.setArticleNumber(articleNumbers.text());
+            Elements color = secondLayerDoc.getElementsByAttributeValue(KEY_ATTRIBUTE_DATA_TEST_ID,
+                                                                        ATTRIBUTE_VALUE_VARIANT_COLOR);
+            product.setColor(color.text());
+            productList.add(product);
         }
         return productList;
     }
@@ -118,7 +109,7 @@ public class WebShopParser {
      * @param list List of Product - collection with products.
      * @param path type String path is a path where to create new JSON file.
      */
-    public void createJsonDocWithProducts(List<Product> list, String path) {
+    public File createJsonDocWithProducts(List<Product> list, String path) {
         File productFile = new File(path);
         FileWriter fileWriter;
         ObjectMapper objectMapper;
@@ -130,7 +121,8 @@ public class WebShopParser {
             fileWriter.write(dataToWriteInFile);
             fileWriter.close();
         } catch (IOException e) {
-            log.debug("Can not create file", e);
+            log.error("Can not create file", e);
         }
+        return productFile;
     }
 }
