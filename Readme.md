@@ -25,9 +25,12 @@ of all products from this shop.
 
 This app can be used in multithreading environment.
 The difference in execution with one thread:
+
 ![stdout_parser](images/stdout_parser.jpg)
 
+
 And with 4 threads:
+
 ![stdout_parser](images/parserMT.jpg)
 
 # <a name="structure"></a>Project Structure
